@@ -1,0 +1,1 @@
+Dale's React + Typescript + Vite + inline-css template
