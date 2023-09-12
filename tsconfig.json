@@ -17,11 +17,15 @@
 		"noFallthroughCasesInSwitch": true,
 		"baseUrl": "src",
 		"paths": {
-			"@utils": ["utils"],
+			"@assets/*": ["assets/*"],
 			"@components": ["components"],
-			"@assets/*": ["assets/*"]
-		}
+			"@services": ["services"],
+			"@utils": ["utils"]
+		},
+		"types": [
+			"./src/global.d.ts"
+		]
 	},
-	"include": ["src", "./vite.config.ts"],
+	"include": ["./src", "./src/global.d.ts"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
