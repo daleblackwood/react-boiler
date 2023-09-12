@@ -2,5 +2,4 @@ root = true
 
 [*.{js,ts,json,jsx,tsx}]
 charset = utf-8
-indent_style = spatabce
-indent_size = 4
+indent_style = tab

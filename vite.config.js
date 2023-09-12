@@ -13,7 +13,6 @@ for (const [pathKey, paths] of Object.entries(tsConfig.compilerOptions.paths)) {
 	if (!path) continue;
 	alias[key] = __dirname + "/src/" + path.replace("/*", "");
 }
-console.log(JSON.stringify(alias));
 
 export default defineConfig({
 	plugins: [
